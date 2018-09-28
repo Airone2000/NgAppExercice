@@ -6,12 +6,14 @@ import { AppRouterModule } from './app-router/app-router.module';
 import { AppHomeComponent } from './app-home/app-home.component';
 import { BookFeatureModule } from './features/book-feature/book-feature.module';
 import { AppNotFoundComponent } from './app-not-found/app-not-found.component';
+import { BookFeatureComponent } from './features/book-feature/book-feature.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AppHomeComponent,
-    AppNotFoundComponent
+    AppNotFoundComponent,
+    BookFeatureComponent
   ],
   imports: [
     BrowserModule,
